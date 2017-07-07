@@ -1,10 +1,10 @@
 /*
-  Refactor this function to use .filter and ES6 syntax
+  Refactor this function to use .map and ES6 syntax
  */
 
-function arrangeByGender(persons) {
+function getFullNames(persons) {
   const result  = [];
-  for (let i = 0; i < persons.length; i++) {
+  for (var i = 0; i < persons.length; i++) {
     var person = persons[i];
     var fullName = person.firstName + ' ' + person.lastName;
     result.push({ fullName: fullName });
@@ -12,4 +12,4 @@ function arrangeByGender(persons) {
   return result;
 };
 
-module.exports = arrangeByGender;
+module.exports = getFullNames;

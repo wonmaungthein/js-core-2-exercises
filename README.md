@@ -13,7 +13,7 @@ This is the command to run
 To run the tests from the console, run the command: `npm test` 
 To keep the tests running (auto updating when you save files), run the command: `npm test -- --watch` then press `a` to run all the tests and keep watching the files for changes. To quit the tests, type `q`.
 
-To run a specifc test, do: `npm test -- filename` for example `npm test -- find-alive` (that will run only the files that matches find-alive, i.e. findAlive.test.js)
+To run a specifc test, do: `npm test -- filename` for example `npm test -- remove-vowels` (that will run only the files that matches find-alive, i.e. findAlive.test.js)
 
 ## 
 
