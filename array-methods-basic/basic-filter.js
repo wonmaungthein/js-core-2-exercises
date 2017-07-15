@@ -4,7 +4,7 @@
 3. Write tests to cover the case where length is provided
  */
 
-var MESSAGE_LENGTH = 30;
+const MESSAGE_LENGTH = 30;
 
 var getShortMessages = function(messages) {
     var result = [];

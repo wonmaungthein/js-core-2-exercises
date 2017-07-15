@@ -1,4 +1,4 @@
-var getUpperCaseVowels = require('./basic-chaining');
+var getUpperCaseVowels = require('./basic-chaining.js');
 
 describe('getUpperCaseVowels', function() {
     test('returns an array of vowels in UPPER CASE', function() {
